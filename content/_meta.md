@@ -1,6 +1,6 @@
 ---
 Logo: image/tools.png
-Tagline: My portfolio.
+Tagline: Min portfolio.
 Social:
     - title: Link till sidans github repo.
       url: https://github.com/dbwebb-se/design-v3

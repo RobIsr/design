@@ -1,12 +1,13 @@
 ---
 Title: Hem
-Description: This is our index page.
+Description: Index page.
 ---
 
-Hem
-==========================
+
+![Pofil bild](image/jag.png)
 
 Hej,
+----
 
 Mitt namn är Robert Israelsson, bor i Umeå i Västerbotten med min sambo och mina två barn. Jag är uppväxt i en liten "by" som heter Gielas. Jag använder citat-tecken för ordet by då det bara var jag och min familj som bodde där :D
 
