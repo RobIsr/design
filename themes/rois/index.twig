@@ -17,7 +17,6 @@
         <link rel="canonical" href="{{ current_page.url }}" />
     {% endif %}
 
-    <link rel="stylesheet" href="{{ theme_url }}/../shared/css/font-awsome.min.css" type="text/css" />
     <!-- Insert font choice here -->
     {# <link rel="stylesheet" href="{{ theme_url }}/../shared//css/dorid-sans.css" type="text/css" /> #}
     <!-- End -->
@@ -45,6 +44,7 @@
                     <span class="sr-only">Toggle Menu</span>
     </a>
     </div>
+
     <div id="nav-area">
    
     <div id="nav" role="navigation" tabindex="-1">
@@ -57,9 +57,8 @@
         </ul>
     </div>
     </header>
-    <div class="flash-region">
-              <img class="flash-img" src="{{ base_url }}/image/banner.png?sc=banner1&a=40,0,0,0">
-            </div>
+    <div class="plane">
+        <img src="{{ base_url }}/assets/img/plane.png" alt="" />
     </div>
     <div class="main" id="main" role="main">
         <div class="container">
@@ -71,7 +70,7 @@
         <!-- Loads from FontAwesome (themes/shared/css/font-awesome.min.css) -->
         {% for social in pages["_meta"].meta.social %}
             <a href="{{ social.url }}" title="{{ social.title }}" role="button">
-                <i class="fa fa-{{ social.icon }}" aria-hidden="true"> Github</i>
+                <i class="{{ social.icon }}" aria-hidden="true"> Github</i>
                 <span class="sr-only">{{ social.title }}</span>
             </a>
         {% endfor %}

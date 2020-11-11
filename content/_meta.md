@@ -4,5 +4,5 @@ Tagline: Min portfolio.
 Social:
     - title: Github
       url: https://github.com/RobIsr/design
-      icon: github
+      icon: fab fa-github
 ---

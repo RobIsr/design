@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+p, h1, h2 {
+    margin: 0.5em 0 0.5em 0;
+}
+
+
+/* Header */
+
+.site-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 0 0 auto;
+    background-color: #5D47C0;
+    color: #B8C833;
+    padding: 0 2em;
+}
+
+.site-header a, .site-header a:visited {
+    color:#30111E;
+}
+
+.logo {
+    padding: 3em 3em 3em 0;
+}
+
+.title * {
+    color: #111;
+    text-decoration: none;
+}
+
+.title p {
+    font-style: italic;
+}
+
+.logo {
+    padding-top: 1rem;
+    height: 10.8em;
+}
+
+.logo * {
+    display: block;
+    height: 100%;
+}
+
+.logo img {
+    min-width: 4.8em;
+}
+
+.logo+.title h1 {
+    margin: 0.8rem 0;
+}
+
+.logo+.title.tagline h1 {
+    margin: 0;
+}
+
+#header-items {
+    display: flex;
+    flex-direction: row;
+}
+
+#nav-area {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Main */
+
+.main {
+    flex: 1 0 auto;
+    padding: 2em;
+}
+
+body {
+    background-color: #EDEAF8;
+}
+
+.container {
+    width: 50%;
+    margin: 1rem auto
+}
+
+.container img {
+    vertical-align: middle;
+    width: 5em;
+    border-radius: 20%;
+    float: left;
+    margin-right: 1rem;
+}
+
+/* Footer */
+
+.site-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+    background: #30111E;
+    color: #EDEAF8;
+    padding: 2em;
+}
+
+.site-footer a {
+    color: #5D47C0;
+}
+
+.site-footer p {
+    padding: 1em 0;
+}
+.site-footer .social {
+    padding: 0.5em 0 0.5em 1em;
+}
+
+.active {
+        background-color: #EDEAF8;
+}
+
+.flash-region {
+    margin: 1em auto;
+    width: 50%;
+}
+
+.flash-img {
+    height: 6em;
+    width: 100%;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+
+/* Small devices */
+
+@media (max-width: 767px) {
+    .container {
+        width: 100%;
+    }
+
+    .site-header {
+        justify-content: space-evenly;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .logo img {
+        width: 2em;
+    }
+
+    #nav-area {
+        display: flex;
+        flex-direction: column;
+        padding-right: 1em;
+        background-color: grey;
+        margin: 0;
+    }
+
+    #header-items {
+        display: flex;
+        flex-direction: row;
+        padding-left: 1em;
+    }
+
+    .flash-region img {
+        display: none;
+        margin: 0;
+    }
+
+    .site-footer {
+        flex-direction: column;
+    }
+
+    .site-footer p {
+        padding-left: 1em;
+    }
+
+
+    .social {
+        padding-left: 0;
+    }
+}
