@@ -1,6 +1,7 @@
 ---
 Title: Hem
 Description: Index page.
+Icon: fas fa-home
 ---
 
 

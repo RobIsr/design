@@ -1,6 +1,7 @@
 ---
 Title: Report
 Description: My reports.
+Icon: fas fa-book-open
 ---
 
 Reports
