@@ -13,10 +13,21 @@ body {
 }
 
 .site-header {
-    justify-content: space-between;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
+    position: relative;
+
+    .container {
+        flex-direction: row;
+    }
+}
+
+.curve {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #EDEAF8;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
 }
 
 .main {
@@ -34,4 +45,14 @@ body {
     position: absolute;
     top: 30%;
     left: 3em;
+}
+
+@media (max-width: 767px) {
+    .plane {
+        display: none;
+    }
+
+    .main {
+        background-image: none;
+    }
 }

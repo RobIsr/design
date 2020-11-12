@@ -25,6 +25,7 @@
 </head>
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
     <header class="site-header">
+    <div class="container">
     <div id="header-items">
     {% if pages["_meta"].meta.logo %}
         <div class="logo" aria-hidden="true">
@@ -39,14 +40,12 @@
                     {{ pages["_meta"].meta.tagline|markdown }}
                 </a>
     </div>
-    <a id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
+     <a id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
                     <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
                     <span class="sr-only">Toggle Menu</span>
     </a>
     </div>
-
-    <div id="nav-area">
-   
+     </div>
     <div id="nav" role="navigation" tabindex="-1">
         <ul>
             {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
@@ -56,6 +55,7 @@
                 {% endfor %}
         </ul>
     </div>
+    <div class="curve"></div>
     </header>
     <div class="plane">
         <img src="{{ base_url }}/assets/img/plane.png" alt="" />
