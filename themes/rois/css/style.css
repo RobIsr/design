@@ -6819,6 +6819,11 @@ h6 {
   font-family: "Heebo", sans-serif;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 html,
 body {
   height: 100%;
@@ -6871,7 +6876,6 @@ p {
     flex-direction: column;
     justify-content: space-evenly;
     padding: 0;
-    justify-content: center;
   }
 
   .container {
@@ -6972,7 +6976,9 @@ p {
 }
 
 .logo {
-  padding: 3em 3em 3em 0;
+  padding-top: 1rem;
+  padding-right: 3rem;
+  padding-left: 1rem;
 }
 
 .logo img {
@@ -7025,11 +7031,9 @@ p {
   }
 }
 .container img {
-  vertical-align: middle;
   width: 5em;
-  border-radius: 20%;
-  float: left;
-  margin-right: 1rem;
+  border-radius: 50%;
+  margin-left: 40%;
 }
 
 .main {

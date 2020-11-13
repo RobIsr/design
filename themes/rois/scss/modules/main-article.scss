@@ -1,9 +1,7 @@
 .container img {
-    vertical-align: middle;
     width: 5em;
-    border-radius: 20%;
-    float: left;
-    margin-right: 1rem;
+    border-radius: 50%;
+    margin-left: 40%;
 }
 
 .main {
@@ -21,6 +19,5 @@
 @media (max-width: 767px) {
     .main {
         background-image: none;
-
     }
 }

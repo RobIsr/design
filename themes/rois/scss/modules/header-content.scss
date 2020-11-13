@@ -23,7 +23,9 @@
 }
 
 .logo {
-    padding: 3em 3em 3em 0;
+    padding-top: 1rem;
+    padding-right: 3rem;
+    padding-left: 1rem;
 }
 
 .logo img {
@@ -53,7 +55,6 @@
 }
 
 @media (max-width: 767px) {
-
     .header-items {
         flex-direction: row;
     }
