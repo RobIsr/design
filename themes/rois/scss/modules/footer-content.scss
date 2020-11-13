@@ -1,0 +1,19 @@
+.site-footer {
+    background: $footer-color;
+    color: $base-color;
+}
+
+.site-footer .social {
+    padding: 0.5em 0 0.5em 1em;
+}
+
+@media (max-width: 767px) {
+    .site-footer {
+        flex-direction: column;
+    }
+
+
+    .social {
+        padding-left: 0;
+    }
+}

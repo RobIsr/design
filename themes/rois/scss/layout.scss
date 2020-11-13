@@ -42,7 +42,7 @@ p {
 }
 
 #nav {
-    width: 30%;
+    width: 20%;
 }
 
 @media (max-width: 767px) {
@@ -58,6 +58,9 @@ p {
     }
 
     #nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
         width: 100%;
     }
 
@@ -65,9 +68,5 @@ p {
         display: flex;
         flex-direction: row;
         justify-content: center;
-
-        .logo {
-            height: 50%;
-        }
     }
 }

@@ -1,0 +1,26 @@
+.container img {
+    vertical-align: middle;
+    width: 5em;
+    border-radius: 20%;
+    float: left;
+    margin-right: 1rem;
+}
+
+.main {
+    min-height: 38rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    background-image: url('../../../assets/img/background.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: $base-color;
+}
+
+@media (max-width: 767px) {
+    .main {
+        background-image: none;
+
+    }
+}
