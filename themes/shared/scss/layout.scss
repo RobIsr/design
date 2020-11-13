@@ -1,19 +1,18 @@
 html,
 body {
     height: 100%;
+    font-size: 100%;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
+p {
+    font-size: 1em;
 }
 
 .site-header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex: 0 0 auto;
-    padding: 0 2em;
+    position: relative;
 }
 
 .site-footer {
@@ -21,5 +20,54 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
     align-content: center;
-    padding: 2em;
+    padding: 2rem;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#header-items {
+    display: flex;
+    flex-direction: row;
+}
+
+#nav {
+    width: 30%;
+}
+
+@media (max-width: 767px) {
+    .site-header {
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 0;
+        justify-content: center;
+    }
+
+    .container {
+        width:90%;
+    }
+
+    #nav {
+        width: 100%;
+    }
+
+    #header-items {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        .logo {
+            height: 50%;
+        }
+    }
 }

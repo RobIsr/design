@@ -1,0 +1,66 @@
+.active {
+    background-color: $base-color;
+}
+
+#nav {
+    padding: 3rem 0;
+
+    ul {
+        margin: 0 auto;
+
+        li {
+            display: inline-block;
+            padding: 0.5em;
+            margin: 1em;
+            font-weight: bold;
+            border-radius: 10px;
+        }
+
+        li:hover {
+            background-color: $base-color;
+        }
+    
+        a {
+            text-decoration: none;
+            padding: 0.5em;
+        }
+
+        a:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+/* Small devices */
+
+@media (max-width: 767px) {
+    .active {
+        background-color: $header-color;
+    }
+
+    #nav {
+        padding: 0;
+        z-index: 1;
+
+        ul {
+            width: 50%;
+            margin: 0 auto;
+            li {
+                display: inline;
+                text-align: center;
+            }
+
+            li:hover {
+                background-color: $header-color; 
+            }
+        
+            a {
+                display: inline;
+                padding: 0.5em 0;
+            }
+
+        }
+    }
+
+    
+}

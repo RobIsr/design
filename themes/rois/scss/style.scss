@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Poppins&display=swap');
 @import '../../shared/fontawesome/scss/fontawesome';
 $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/brands';
@@ -5,39 +7,31 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import '../../shared/fontawesome/scss/regular';
 @import '../../node_modules/normalize.css/normalize';
 @import '../../shared/scss/base';
+@import 'base';
+@import './modules/nav.scss';
+@import './modules/header-content.scss';
 
-@import '../css/old';
-
-body {
-    position: relative;
-}
-
-.site-header {
-    position: relative;
-
-    .container {
-        flex-direction: row;
-    }
-}
 
 .curve {
     position: absolute;
     bottom: 0;
     height: 50px;
     width: 100%;
-    background-color: #EDEAF8;
+    background-color: $base-color;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
 }
 
 .main {
+    min-height: 38rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: top;
     background-image: url("../../../assets/img/background.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    background-color: $base-color;
 }
 
 .plane {
@@ -47,6 +41,27 @@ body {
     left: 3em;
 }
 
+.site-header {
+    background-color: $header-color;
+}
+
+.site-footer {
+    background: $footer-color;
+    color: $base-color;
+}
+
+.container img {
+    vertical-align: middle;
+    width: 5em;
+    border-radius: 20%;
+    float: left;
+    margin-right: 1rem;
+}
+
+.site-footer .social {
+    padding: 0.5em 0 0.5em 1em;
+}
+
 @media (max-width: 767px) {
     .plane {
         display: none;
@@ -54,9 +69,30 @@ body {
 
     .main {
         background-image: none;
+
     }
 
-    #nav {
-        z-index: 1;
+    .logo img {
+        width: 2em;
+    }
+
+    .site-header {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: $header-color;
+    }
+
+    .header-items {
+        flex-direction: row;
+    }
+
+    .site-footer {
+        flex-direction: column;
+    }
+
+
+    .social {
+        padding-left: 0;
     }
 }
