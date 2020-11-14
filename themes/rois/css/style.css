@@ -6807,7 +6807,7 @@ body {
 p,
 h1,
 h2 {
-  margin: 0.5em 0 0.5em 0;
+  margin: 0.5em 0;
 }
 
 h1,
@@ -6822,6 +6822,9 @@ h6 {
 ul {
   list-style: none;
   padding: 0;
+}
+ul li {
+  padding: 0.5rem 0;
 }
 
 html,
@@ -6862,12 +6865,12 @@ p {
   padding-bottom: 2rem;
 }
 
-#header-items {
+.header-items {
   display: flex;
   flex-direction: row;
 }
 
-#nav {
+.nav {
   width: 20%;
 }
 
@@ -6882,14 +6885,14 @@ p {
     width: 90%;
   }
 
-  #nav {
+  .nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
   }
 
-  #header-items {
+  .header-items {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -6899,28 +6902,29 @@ p {
   background-color: #edeaf8;
 }
 
-#nav {
+.nav {
   padding: 3rem 0;
 }
-#nav ul {
+
+.nav ul {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
 }
-#nav ul li {
+.nav ul li {
   padding: 0.3rem;
   display: inline;
   clear: both;
   border-radius: 10px;
 }
-#nav ul li:hover {
+.nav ul li:hover {
   background-color: #edeaf8;
 }
-#nav ul a {
+.nav ul a {
   text-decoration: none;
   padding: 0.5rem;
 }
-#nav ul a:hover {
+.nav ul a:hover {
   text-decoration: none;
 }
 
@@ -6930,23 +6934,24 @@ p {
     background-color: #5d47c0;
   }
 
-  #nav {
+  .nav {
     padding: 0;
     z-index: 1;
   }
-  #nav ul {
+
+  .nav ul {
     width: 50%;
     padding-left: 0;
   }
-  #nav ul li {
+  .nav ul li {
     padding: 0.3rem;
     display: inline;
     clear: both;
   }
-  #nav ul li:hover {
+  .nav ul li:hover {
     background-color: #5d47c0;
   }
-  #nav ul a {
+  .nav ul a {
     display: inline;
     padding: 0.5rem 0;
   }
@@ -6954,8 +6959,7 @@ p {
 .site-header {
   background-color: #5d47c0;
 }
-
-.site-header a,
+.site-header .site-header a,
 .site-header a:visited {
   color: #30111e;
 }
@@ -6980,7 +6984,6 @@ p {
   padding-right: 3rem;
   padding-left: 1rem;
 }
-
 .logo img {
   width: 4em;
 }
@@ -7003,10 +7006,6 @@ p {
   border-top-left-radius: 50%;
 }
 
-.site-footer a {
-  color: #5d47c0;
-}
-
 @media (max-width: 767px) {
   .header-items {
     flex-direction: row;
@@ -7016,18 +7015,22 @@ p {
   background: #30111e;
   color: #edeaf8;
 }
-
-.site-footer .social {
+.site-footer social {
   padding: 0.5em 0 0.5em 1em;
+}
+.site-footer a {
+  color: #5d47c0;
 }
 
 @media (max-width: 767px) {
   .site-footer {
     flex-direction: column;
   }
-
-  .social {
+  .site-footer .social {
     padding-left: 0;
+  }
+  .site-footer a {
+    color: #5d47c0;
   }
 }
 .container img {

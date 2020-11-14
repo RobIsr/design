@@ -1,10 +1,10 @@
 .site-header {
     background-color: $header-color;
-}
 
-.site-header a,
-.site-header a:visited {
-    color: $footer-color;
+    .site-header a,
+    a:visited {
+        color: $footer-color;
+    }
 }
 
 .title * {
@@ -26,10 +26,10 @@
     padding-top: 1rem;
     padding-right: 3rem;
     padding-left: 1rem;
-}
 
-.logo img {
-    width: 4em;
+    img {
+        width: 4em;
+    }
 }
 
 .logo+.title h1 {
@@ -48,10 +48,6 @@
     background-color: $base-color;
     border-top-right-radius: 50%;
     border-top-left-radius: 50%;
-}
-
-.site-footer a {
-    color: $header-color;
 }
 
 @media (max-width: 767px) {

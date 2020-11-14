@@ -36,12 +36,12 @@ p {
     padding-bottom: 2rem;
 }
 
-#header-items {
+.header-items {
     display: flex;
     flex-direction: row;
 }
 
-#nav {
+.nav {
     width: 20%;
 }
 
@@ -53,17 +53,17 @@ p {
     }
 
     .container {
-        width:90%;
+        width: 90%;
     }
 
-    #nav {
+    .nav {
         display: flex;
         flex-direction: row;
         justify-content: center;
         width: 100%;
     }
 
-    #header-items {
+    .header-items {
         display: flex;
         flex-direction: row;
         justify-content: center;

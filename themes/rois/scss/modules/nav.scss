@@ -2,33 +2,33 @@
     background-color: $base-color;
 }
 
-#nav {
+.nav {
     padding: 3rem 0;
+}
 
-    ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 
-        li {
-            padding: 0.3rem;
-            display:inline;
-            clear: both;
-            border-radius: 10px;
-        }
+    li {
+        padding: 0.3rem;
+        display: inline;
+        clear: both;
+        border-radius: 10px;
+    }
 
-        li:hover {
-            background-color: $base-color;
-        }
-    
-        a {
-            text-decoration: none;
-            padding: 0.5rem;
-        }
+    li:hover {
+        background-color: $base-color;
+    }
 
-        a:hover {
-            text-decoration: none;
-        }
+    a {
+        text-decoration: none;
+        padding: 0.5rem;
+    }
+
+    a:hover {
+        text-decoration: none;
     }
 }
 
@@ -39,28 +39,29 @@
         background-color: $header-color;
     }
 
-    #nav {
+    .nav {
         padding: 0;
         z-index: 1;
+    }
 
-        ul {
-            width: 50%;
-            padding-left: 0;
-            li {
-                padding: 0.3rem;
-                display:inline;
-                clear: both;
-            }
+    .nav ul {
+        width: 50%;
+        padding-left: 0;
 
-            li:hover {
-                background-color: $header-color; 
-            }
-        
-            a {
-                display: inline;
-                padding: 0.5rem 0;
-            }
-
+        li {
+            padding: 0.3rem;
+            display: inline;
+            clear: both;
         }
+
+        li:hover {
+            background-color: $header-color; 
+        }
+    
+        a {
+            display: inline;
+            padding: 0.5rem 0;
+        }
+
     }
 }

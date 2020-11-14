@@ -26,7 +26,7 @@
     <header class="site-header">
 
     <!-- Header content -->
-    <div id="header-items">
+    <div class="header-items">
         {% if pages["_meta"].meta.logo %}
             <div class="logo" aria-hidden="true">
                 <a href="{{ "index"|link }}">
@@ -43,7 +43,7 @@
      </div>  
 
     <!-- Navbar -->
-    <div id="nav" role="navigation" tabindex="-1">
+    <div class="nav" role="navigation" tabindex="-1">
         <ul>
             {% for page in pages(depthOffset=-1) if page.title and not page.hidden %}
             <li{% if page.id == current_page.id %} class="active" {% endif %}>
