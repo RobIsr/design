@@ -21,8 +21,31 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
     left: 3em;
 }
 
+.flash-region {
+
+    width: 100%;
+    background-color: $base-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    .flash-img {
+        width: 50%;
+        height: 100px;
+        margin: 1rem auto;
+    }
+}
+
+
+
 @media (max-width: 767px) {
     .plane {
         display: none;
+    }
+
+    .flash-region .flash-img {
+        width: 100%;
+        height: 100px;
+        margin: 1rem;
     }
 }
