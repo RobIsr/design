@@ -6931,7 +6931,7 @@ p {
 /* Small devices */
 @media (max-width: 767px) {
   .active {
-    background-color: #5d47c0;
+    background-color: #edeaf8;
   }
 
   .nav {
