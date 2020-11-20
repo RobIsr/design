@@ -7056,6 +7056,75 @@ p {
     background-image: none;
   }
 }
+/* report.scss */
+.landingpage {
+  width: 60%;
+  margin: 1em auto;
+  display: grid;
+  gap: 1em 1em;
+}
+
+.landingpage h1 {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.landingpage .kmom-box {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 20% 60% 20%;
+  height: 250px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.kmom-box.project {
+  grid-column: span 3;
+}
+
+.box-header {
+  height: 50px;
+  background-color: #5d47c0;
+  grid-column: span 3;
+  grid-row: 1/1;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.box-main {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.box-footer {
+  position: relative;
+  grid-column: 3/3;
+  grid-row: 3/3;
+}
+.box-footer button {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.5rem;
+}
+
+@media (max-width: 1000px) {
+  .landingpage {
+    width: 80%;
+    margin: 1em auto;
+  }
+}
+@media (max-width: 767px) {
+  .landingpage {
+    width: 80%;
+    margin: 1em auto;
+  }
+
+  .landingpage .kmom-box {
+    display: grid;
+    grid-column: span 3;
+  }
+}
 .plane {
   width: 10%;
   position: absolute;
