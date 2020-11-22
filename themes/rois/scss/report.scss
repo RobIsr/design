@@ -4,6 +4,7 @@
     margin: 1em auto;
     display: grid;
     gap: 1em 1em;
+    grid-template-columns: 30% 30% 30%;
 }
 
 .landingpage h1 {
@@ -16,9 +17,9 @@
     grid-template-columns: auto;
     grid-template-rows: 20% 60% 20%;
     height: 250px;
-    background-color: white;
+    background-color: $base-color;
     border-radius: 10px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .kmom-box.project {
@@ -32,14 +33,24 @@
     grid-row: 1 / 1;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+
+    h2 {
+        text-align: center;
+        color: $base-color;
+    }
 }
 
 .box-main {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
+
+    p {
+        white-space: pre-line;
+        padding-left: 1rem;
+    }
 }
 
-.box-footer{
+.box-footer {
     position: relative;
     grid-column: 3 / 3;
     grid-row: 3 / 3;
@@ -51,16 +62,16 @@
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 900px) {
     .landingpage {
-        width: 80%;
+        width: 90%;
         margin: 1em auto;
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 600px) {
     .landingpage {
-        width: 80%;
+        width: 85%;
         margin: 1em auto;
     }
 

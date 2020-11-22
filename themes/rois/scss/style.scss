@@ -14,6 +14,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import './modules/footer-content';
 @import './modules/main-article';
 @import './report';
+@import './kmom';
 
 .plane {
     width: 10%;
@@ -31,15 +32,19 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
     justify-content: center;
 
     .flash-img {
-        width: 50%;
+        width: 60%;
         height: 100px;
         margin: 1rem auto;
     }
 }
 
+@media (max-width: 900px) {
+    .flash-region .flash-img {
+        width: 90%;
+    }
+}
 
-
-@media (max-width: 767px) {
+@media (max-width: 600px) {
     .plane {
         display: none;
     }

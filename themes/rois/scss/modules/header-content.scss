@@ -41,16 +41,6 @@
     margin: 0;
 }
 
-.curve {
-    position: absolute;
-    bottom: 0;
-    height: 50px;
-    width: 100%;
-    background-color: $base-color;
-    border-top-right-radius: 50%;
-    border-top-left-radius: 50%;
-}
-
 @media (max-width: 767px) {
     .header-items {
         flex-direction: row;
