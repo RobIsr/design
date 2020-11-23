@@ -1,3 +1,5 @@
+@import './modules/kmom-card';
+
 /* report.scss */
 .landingpage {
     width: 60%;
@@ -12,55 +14,6 @@
     justify-self: center;
 }
 
-.landingpage .kmom-box {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 20% 60% 20%;
-    height: 250px;
-    background-color: $base-color;
-    border-radius: 10px;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-.kmom-box.project {
-    grid-column: span 3;
-}
-
-.box-header {
-    height: 50px;
-    background-color: $header-color;
-    grid-column: span 3;
-    grid-row: 1 / 1;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-
-    h2 {
-        text-align: center;
-        color: $base-color;
-    }
-}
-
-.box-main {
-    grid-column: 2 / 3;
-    grid-row: 2 / 3;
-
-    p {
-        white-space: pre-line;
-        padding-left: 1rem;
-    }
-}
-
-.box-footer {
-    position: relative;
-    grid-column: 3 / 3;
-    grid-row: 3 / 3;
-    
-    img {
-        position: absolute;
-        bottom: 0.5rem;
-        right: 0.5rem;
-    }
-}
 
 @media (max-width: 900px) {
     .landingpage {
