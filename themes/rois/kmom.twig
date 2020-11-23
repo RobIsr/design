@@ -91,17 +91,20 @@
     <footer class="site-footer">
 
     <!-- Social icons -->
-    <div class="social">
-        <!-- Loads from FontAwesome (themes/shared/css/font-awesome.min.css) -->
-        {% for social in pages["_meta"].meta.social %}
-            <a href="{{ social.url }}" title="{{ social.title }}" role="button">
-                <i class="{{ social.icon }}" aria-hidden="true"> Github</i>
-                <span class="sr-only">{{ social.title }}</span>
-            </a>
-        {% endfor %}
-    </div>
+        <div class="social">
+            <!-- Loads from FontAwesome (themes/shared/css/font-awesome.min.css) -->
+            {% for social in pages["_meta"].meta.social %}
+                <a href="{{ social.url }}" title="{{ social.title }}" role="button">
+                    <i class="{{ social.icon }}" aria-hidden="true"> Github</i>
+                    <span class="sr-only">{{ social.title }}</span>
+                </a>
+            {% endfor %}
+        </div>
         <!-- Attribution for logo -->
-        <p>Icons made by <a href="https://www.flaticon.com/authors/ultimatearm" title="ultimatearm">ultimatearm</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p>
+        <div class="attribution">
+            <p>Icons made by <a href="https://www.flaticon.com/authors/ultimatearm" title="ultimatearm">ultimatearm</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p>
+            <p><a target="_blank" href="https://icons8.com/icons/set/circled-chevron-right">Next page icon</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></p>
+        </div>    
     </footer>
     <script src="{{ theme_url }}/../shared/js/modernizr-3.3.1-custom.min.js" type="text/javascript"></script>
     <script src="{{ theme_url }}/../shared/js/utils.js" type="text/javascript"></script>
