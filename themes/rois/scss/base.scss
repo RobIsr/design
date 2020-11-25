@@ -1,3 +1,18 @@
+@import '../../node_modules/normalize.css/normalize';
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Poppins&display=swap');
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+@import 'layout';
+@import './modules/nav';
+@import './modules/header-content';
+@import './modules/footer-content';
+@import './modules/main-article';
+@import './report';
+@import './kmom';
+
 * {
     font-family: 'Poppins' , sans-serif;
 }

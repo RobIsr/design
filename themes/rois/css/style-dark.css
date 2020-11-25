@@ -6529,7 +6529,7 @@ p {
   }
 }
 .active {
-  background-color: #edeaf8;
+  background-color: #30111e;
 }
 
 .nav {
@@ -6548,7 +6548,7 @@ p {
   border-radius: 10px;
 }
 .nav ul li:hover {
-  background-color: #edeaf8;
+  background-color: #30111e;
 }
 .nav ul a {
   text-decoration: none;
@@ -6561,7 +6561,7 @@ p {
 /* Small devices */
 @media (max-width: 767px) {
   .active {
-    background-color: #edeaf8;
+    background-color: #30111e;
   }
 
   .nav {
@@ -6579,7 +6579,7 @@ p {
     clear: both;
   }
   .nav ul li:hover {
-    background-color: #edeaf8;
+    background-color: #30111e;
   }
   .nav ul a {
     display: inline;
@@ -6635,7 +6635,7 @@ p {
 }
 .site-footer {
   background: #30111e;
-  color: #edeaf8;
+  color: #30111e;
 }
 .site-footer .social {
   display: flex;
@@ -6680,7 +6680,7 @@ p {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  background-color: #edeaf8;
+  background-color: #30111e;
 }
 
 @media (max-width: 767px) {
@@ -6693,7 +6693,7 @@ p {
   grid-template-columns: auto;
   grid-template-rows: 20% 60% 20%;
   height: 250px;
-  background-color: #edeaf8;
+  background-color: #30111e;
   border-radius: 10px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
@@ -6712,7 +6712,7 @@ p {
 }
 .box-header h2 {
   text-align: center;
-  color: #edeaf8;
+  color: #30111e;
 }
 
 .box-main {
@@ -6805,7 +6805,7 @@ h1 {
   color: #5d47c0;
 }
 .sidebar a:hover {
-  color: #edeaf8;
+  color: #30111e;
 }
 .sidebar li {
   width: 50%;
@@ -6820,10 +6820,10 @@ h1 {
 
 .sidebar .active {
   background-color: #5d47c0;
-  color: #edeaf8;
+  color: #30111e;
 }
 .sidebar .active a {
-  color: #edeaf8;
+  color: #30111e;
 }
 
 .kmom-content {

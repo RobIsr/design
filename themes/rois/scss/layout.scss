@@ -9,10 +9,18 @@ p {
 }
 
 .site-header {
+    background: url("../../../assets/img/sky.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     position: relative;
+}
+
+.main {
+    min-height: 42rem;
 }
 
 .site-footer {
