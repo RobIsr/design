@@ -1,66 +1,68 @@
-.active {
-    background-color: $base-color;
+.nav-toggle {
+    display: none;
 }
 
-.nav {
-    padding: 3rem 0;
+.hidden {
+    display: none !important;
 }
 
-.nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-
-    li {
-        padding: 0.3rem;
-        display: inline;
-        clear: both;
-        border-radius: 10px;
-    }
-
-    li:hover {
-        background-color: $base-color;
-    }
-
-    a {
-        text-decoration: none;
-        padding: 0.5rem;
-    }
-
-    a:hover {
-        text-decoration: none;
-    }
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0 none;
 }
 
-/* Small devices */
+.slide {
+    overflow-y: hidden !important;
+    transition: height 0.5s ease-in !important;
+}
 
-@media (max-width: 767px) {
-    .active {
-        background-color: $base-color;
-    }
+.nav ul li {
+    display: inline;
+    margin-left: 0;
+    text-align: center;
+    padding: 1em;
+    vertical-align: middle;
+}
 
+@media (max-width: 600px) {
     .nav {
+        clear: both;
         padding: 0;
-        z-index: 1;
     }
 
     .nav ul {
-        width: 50%;
-        padding-left: 0;
+        padding-bottom: 1em;
+    }
 
-        li {
-            padding: 0.3rem;
-            display: inline;
-            clear: both;
-        }
+    .nav ul li {
+        display: block;
+        margin-left: 0;
+        text-align: center;
+    }
 
-        li:hover {
-            background-color: $base-color; 
-        }
-    
-        a {
-            display: inline;
-            padding: 0.5rem 0;
-        }
+    .nav ul li a {
+        display: block;
+        padding: 0.5em 0;
+    }
+
+    .js .nav-toggle {
+        display: block;
+        float: right;
+        width: 2em;
+        margin: 0.6667em 0;
+        font-size: 1.5rem;
+        line-height: 2em;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .js .nav-toggle>* {
+        vertical-align: middle;
     }
 }

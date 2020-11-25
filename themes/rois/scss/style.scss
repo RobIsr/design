@@ -1,5 +1,5 @@
 @import './variables';
-@import './base.scss';
+@import './base';
 
 .plane {
     width: 10%;
@@ -11,5 +11,13 @@
 @media (max-width: 600px) {
     .plane {
         display: none;
+    }
+
+    .footer p {
+        padding: 1em 0;
+    }
+    
+    .footer .social {
+        padding: 0.5em 0 0.5em 1em;
     }
 }

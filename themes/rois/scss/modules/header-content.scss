@@ -1,5 +1,4 @@
 .site-header {
-    
     .site-header a,
     a:visited {
         color: $footer-color;
@@ -10,10 +9,12 @@
 .title * {
     color: #111;
     text-decoration: none;
+    text-align: left;
 }
 
 .title p {
     font-style: italic;
+    text-align: left;
 }
 
 .logo * {
