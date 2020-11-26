@@ -1,6 +1,6 @@
 .site-footer {
     background: $footer-color;
-    color: $footer-color;
+    color: $main-text-color;
 
     .social {
         display: flex;
@@ -14,7 +14,7 @@
     }
 
     p {
-        color: $light-base-color;
+        color: $main-text-color;
     }
 
     i {

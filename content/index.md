@@ -4,8 +4,6 @@ Description: Index page.
 Icon: fas fa-home
 ---
 
-![Pofil bild](image/jag.png)
-
 <h2>&#129492;</h2>
 
 Hej, mitt namn är Robert Israelsson, bor i Umeå i Västerbotten med min sambo och mina två barn. Jag är uppväxt i en liten "by" som heter Gielas. Jag använder citat-tecken för ordet by då det bara var jag och min familj som bodde där :D

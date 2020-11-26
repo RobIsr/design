@@ -21,6 +21,19 @@ p {
     min-height: 10rem;
 }
 
+.dark-header {
+    background: url('../../../assets/img/sky-dark.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    padding: 1rem;
+    min-height: 10rem;
+}
+
 .main {
     min-height: 32rem;
 }
@@ -40,6 +53,9 @@ p {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
     margin: 0 auto;
     padding-top: 2rem;
     padding-bottom: 2rem;

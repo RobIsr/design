@@ -33,7 +33,7 @@ h1 {
     }
 
     a:hover {
-        color: $light-base-color;
+        color: $link-hover;
     }
     
     li {
@@ -51,10 +51,10 @@ h1 {
 
 .sidebar .active {
     background-color: $footer-color;
-    color: $light-base-color;
+    color: $link-hover;
 
     a {
-        color: $light-base-color;
+        color: $link-hover;
     }
 } 
 
@@ -71,7 +71,7 @@ h1 {
 @media (max-width: 767px) {
     .kmom-page {
         display: grid;
-        grid-template-columns: 5% 90% 5%;
+        grid-template-columns: 2% 96% 2%;
     } 
     
     .kmom-content {

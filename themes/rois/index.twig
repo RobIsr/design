@@ -21,11 +21,16 @@
     {% if config.session.theme == "dark" %}
         <link rel="stylesheet" href="{{ theme_url }}/css/style-dark.min.css" type="text/css" />
     {% else %}
-        <link rel="stylesheet" href="{{ theme_url }}/css/style.min.css" type="text/css" />
+        <link rel="stylesheet" href="{{ theme_url }}/css/style.min.css?nocache={timestamp}" type="text/css" />
     {% endif %}
 </head>
 <body{% if config.theme_config.widescreen %} class="widescreen"{% endif %}>
-    <header class="site-header">
+    {% if config.session.theme == "dark" %}
+        <header class="site-header dark-header">
+    {% else %}
+        <header class="site-header">
+    {% endif %}
+
     <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
                 <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
                 <span class="sr-only">Toggle Menu</span>
@@ -73,9 +78,12 @@
     <!-- Main content -->
     <div class="main" id="main" role="main">
         <div class="container card">
-            <article>
+                {% if config.session.theme == "dark" and current_page.title == "Hem" %}
+                    <img src="image/jag-dark.png">
+                {% elseif current_page.title == "Hem" %}
+                    <img src="image/jag.png">
+                {% endif %}
                 {{ content }}
-            </article>
         </div>
     </div>
 
