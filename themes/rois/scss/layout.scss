@@ -78,6 +78,10 @@ p {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
+.no-card {
+    box-shadow: none;
+}
+
 @media (max-width: 767px) {
     .site-header {
         display: block;

@@ -80,7 +80,11 @@
 
     <!-- Main content -->
     <div class="main" id="main" role="main">
-        <div class="kmom-page card">
+        {% if config.session.theme == "dark" %}
+            <div class="kmom-page no-card">
+        {% else %}
+            <div class="kmom-page card">
+        {% endif %}
             <div class="kmom-content">
             {{ content }}
             </div>

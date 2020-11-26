@@ -77,7 +77,11 @@
 
     <!-- Main content -->
     <div class="main" id="main" role="main">
-        <div class="container card">
+        {% if config.session.theme == "dark" %}
+            <div class="container no-card">
+        {% else %}
+            <div class="container card">
+        {% endif %}
                 {% if config.session.theme == "dark" and current_page.title == "Hem" %}
                     <img src="image/jag-dark.png">
                 {% elseif current_page.title == "Hem" %}
