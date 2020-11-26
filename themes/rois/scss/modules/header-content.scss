@@ -1,7 +1,9 @@
 .site-header {
+    border-bottom: 1px solid $border-color;
+
     .site-header a,
     a:visited {
-        color: $footer-color;
+        color: $link-color;
     }
 }
 

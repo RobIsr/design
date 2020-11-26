@@ -3,7 +3,8 @@
     grid-template-columns: auto;
     grid-template-rows: 20% 60% 20%;
     height: 250px;
-    background-color: $base-color;
+    background-color: $light-base-color;
+    border: 1px solid $footer-color;
     border-radius: 10px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
@@ -14,7 +15,7 @@
 
 .box-header {
     height: 50px;
-    background-color: $header-color;
+    background-color: $footer-color;
     grid-column: span 3;
     grid-row: 1 / 1;
     border-top-left-radius: 10px;
@@ -22,7 +23,7 @@
 
     h2 {
         text-align: center;
-        color: $base-color;
+        color: $light-base-color;
     }
 }
 
@@ -42,6 +43,7 @@
     grid-row: 3 / 3;
     
     img {
+        width: 50px;
         position: absolute;
         bottom: 0.5rem;
         right: 0.5rem;

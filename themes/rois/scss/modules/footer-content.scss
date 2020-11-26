@@ -1,6 +1,6 @@
 .site-footer {
     background: $footer-color;
-    color: $base-color;
+    color: $footer-color;
 
     .social {
         display: flex;
@@ -10,7 +10,11 @@
     }
 
     a {
-        color: $header-color;
+        color: $link-color;
+    }
+
+    p {
+        color: $light-base-color;
     }
 
     i {
@@ -29,7 +33,7 @@
 
         a {
             padding-left: 0;
-            color: $header-color;
+            color: $link-color;
         }
 
         i {

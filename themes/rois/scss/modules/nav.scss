@@ -1,3 +1,9 @@
+.nav {
+    background-color: $footer-color;
+    height: 3rem;
+    border-radius: 10px;
+}
+
 .nav-toggle {
     display: none;
 }
@@ -30,10 +36,12 @@
     vertical-align: middle;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
     .nav {
+        height: auto;
         clear: both;
         padding: 0;
+        background-color: transparent;
     }
 
     .nav ul {
@@ -44,6 +52,7 @@
         display: block;
         margin-left: 0;
         text-align: center;
+        background-color: $footer-color;
     }
 
     .nav ul li a {
@@ -61,7 +70,7 @@
         text-align: center;
         cursor: pointer;
     }
-
+    
     .js .nav-toggle>* {
         vertical-align: middle;
     }

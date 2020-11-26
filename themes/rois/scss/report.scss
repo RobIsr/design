@@ -2,11 +2,11 @@
 
 /* report.scss */
 .landingpage {
-    width: 60%;
+    width: 100%;
     margin: 1em auto;
     display: grid;
     gap: 1em 1em;
-    grid-template-columns: 30% 30% 30%;
+    grid-template-columns: auto;
 }
 
 .landingpage h1 {
@@ -24,7 +24,7 @@
 
 @media (max-width: 600px) {
     .landingpage {
-        width: 85%;
+        width: 100%;
         margin: 1em auto;
     }
 

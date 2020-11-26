@@ -17,8 +17,15 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
     font-family: 'Poppins' , sans-serif;
 }
 
+html {
+    background-color: $light-base-color;
+}
+
 body {
-    background-color: $footer-color;
+    max-width: 1200px;
+    background-color: $base-color;
+    margin: 1em auto;
+    border: 1px solid $border-color;
 }
 
 p,
@@ -34,6 +41,15 @@ h4,
 h5,
 h6 {
     font-family: 'Heebo', sans-serif;
+    color: $main-text-color;
+}
+
+p {
+    color: $main-text-color;
+}
+
+a {
+    text-decoration: none;
 }
 
 ul {
@@ -42,5 +58,11 @@ ul {
 
     li {
         padding: 0.5rem 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    body {
+        margin-top: 0;
     }
 }

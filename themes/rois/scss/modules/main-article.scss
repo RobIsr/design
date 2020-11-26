@@ -5,18 +5,17 @@
 }
 
 .main {
+    width: 80%;
+    margin: 1em auto;
     display: flex;
     flex-direction: column;
     justify-content: top;
-    background-image: url('../../../assets/img/background.svg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
     background-color: $base-color;
 }
 
 @media (max-width: 767px) {
     .main {
+        width: 90%;
         background-image: none;
     }
 }
