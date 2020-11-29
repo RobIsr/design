@@ -48,7 +48,7 @@ Reports
         <h2>Kmom04</h2>
     </div>
     <div class="box-main">
-        <p>Kommer snart...</p>
+        <p>Färgteori med uppsatsskrivning</p>
     </div>
     <div class="box-footer">
         <a href="report/kmom04"><img src="assets/img/arrow.png"></button></a>
