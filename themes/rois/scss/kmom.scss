@@ -1,7 +1,38 @@
 .kmom-page {
     display: grid;
     grid-template-columns: 20% 60% 20%;
-    grid-template-rows: 20% 80%;
+    overflow: auto;
+
+    img {
+        max-width: 50%;
+        margin: 0 auto;
+    }
+
+    .screenshots {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .page-screenshots {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page-screenshots:hover {
+        transform: scale(2.5); 
+    }
+
+    .page-analysis {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page-analysis img {
+        margin-left: 0;
+    }
 }
 
 h1 {
@@ -38,6 +69,7 @@ h1 {
     
     li {
         width: 50%;
+        min-width: 100px;
         height: 2em;
         margin: 1rem auto;
         padding: 0;
@@ -72,6 +104,26 @@ h1 {
     .kmom-page {
         display: grid;
         grid-template-columns: 2% 96% 2%;
+
+        .screenshots {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .page-screenshots {
+            width: 100%;
+        }
+    
+        .page-analysis {
+            width: 100%;
+            
+            img,
+            table {
+                margin: 0 auto;
+            }
+        }
     } 
     
     .kmom-content {
