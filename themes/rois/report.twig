@@ -63,7 +63,7 @@
                 <li{% if page.id == current_page.id %} class="active" {% endif %}>
                     <a href="{{ page.url }}" title="{{ page.title }}">
                         {% if page.meta.icon %}
-                            <i class="{{ page.meta.icon }}"> {{ page.meta.title }}</i>
+                            <i class="{{ page.meta.icon }}"></i>
                         {% else %}
                             {{ page.title }}
                         {% endif %}
@@ -74,11 +74,6 @@
         </div>
     </div>
     </header>
-
-    <!-- Airplane image -->
-    <div class="plane">
-        <img src="{{ base_url }}/assets/img/plane.png" alt="" />
-    </div>
 
     <!-- Main content -->
     <div class="main" id="main" role="main">
