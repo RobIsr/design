@@ -1,5 +1,5 @@
 ---
-Title: Hem
+Title: Home
 Description: Index page.
 Icon: fas fa-home
 ---

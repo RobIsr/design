@@ -77,10 +77,10 @@
         {% else %}
             <div class="container card">
         {% endif %}
-                {% if config.session.theme == "dark" and current_page.title == "Hem" %}
-                    <img src="image/jag-dark.png">
-                {% elseif current_page.title == "Hem" %}
-                    <img src="image/jag.png">
+                {% if config.session.theme == "dark" and current_page.title == "Home" %}
+                    <img src="image/jag-dark.png&h=200&w=200&q=50&save-as=jpg">
+                {% elseif current_page.title == "Home" %}
+                    <img src="image/jag.png&h=200&w=200&q=50&save-as=jpg">
                 {% endif %}
                 {{ content }}
         </div>
