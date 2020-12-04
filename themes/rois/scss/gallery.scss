@@ -1,15 +1,13 @@
 .gallery {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
     gap: 1em 1em;
-    
-    img {
-        width: 100%;
-    }
 
-    .max-width {
-        max-width: 1000px;
+    img,
+    embed,
+    object,
+    video {
+        max-width: 100%;
     }
 }
 
@@ -17,19 +15,10 @@
     .gallery {
         grid-template-columns: repeat(2, 1fr);
     }
-
-    .max-width {
-        max-width: 992px;
-    }
 }
 
 @media (max-width: 767px) {
     .gallery {
-        width: 100%;
         grid-template-columns: 1fr;
-    }
-
-    .max-width {
-        max-width: 767px;
     }
 }

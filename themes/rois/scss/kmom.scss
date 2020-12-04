@@ -1,6 +1,6 @@
 .kmom-page {
     display: grid;
-    grid-template-columns: 20% 60% 20%;
+    grid-template-columns: 20% 1fr;
     overflow: auto;
 
     img {
@@ -99,8 +99,12 @@ h1 {
         margin-top: 0;
     }
 
-    img, embed, object, video {
+    img,
+    embed,
+    object,
+    video {
         max-width: 100%;
+        margin: 0 auto;
     }
 
     .embed-container {
