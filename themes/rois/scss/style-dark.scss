@@ -1,15 +1,2 @@
 @import './variables-dark';
 @import './base';
-
-.plane {
-    width: 10%;
-    position: absolute;
-    top: 30%;
-    left: 3em;
-}
-
-@media (max-width: 600px) {
-    .plane {
-        display: none;
-    }
-}

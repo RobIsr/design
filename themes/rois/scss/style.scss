@@ -1,18 +1,7 @@
 @import './variables';
 @import './base';
 
-.plane {
-    width: 10%;
-    position: absolute;
-    top: 30%;
-    left: 3em;
-}
-
-@media (max-width: 600px) {
-    .plane {
-        display: none;
-    }
-
+@media (max-width: 767px) {
     .footer p {
         padding: 1em 0;
     }
