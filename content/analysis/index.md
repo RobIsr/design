@@ -25,7 +25,7 @@ Analyser
         <h2>Load</h2>
     </div>
     <div class="box-main">
-        <p>Kommer snart...</p>
+        <p>Analys av webbsidors laddtider och användbarhet.</p>
     </div>
     <div class="box-footer">
         <a href="analysis/kmom05"><img src="assets/img/arrow.png"></button></a>

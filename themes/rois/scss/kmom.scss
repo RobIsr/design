@@ -33,6 +33,27 @@
     .page-analysis img {
         margin-left: 0;
     }
+
+    .screenshot {
+        margin: 1rem;
+    }
+
+    .left {
+        float: left;
+        width: 250px;
+        height: 150px;
+        margin-top: 0.5rem;
+    }
+
+    .right {
+        width: 100px;
+        height: 200px;
+        clear: left;
+    }
+
+    hr {
+        display: block;
+    }
 }
 
 h1 {
