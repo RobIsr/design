@@ -34,7 +34,7 @@ Analyser
 
 <div class="kmom-box">
     <div class="box-header">
-        <h2>Design principles</h2>
+        <h2>Design</h2>
     </div>
     <div class="box-main">
         <p>Kommer snart...</p>
