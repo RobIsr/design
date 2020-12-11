@@ -15,7 +15,6 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    position: relative;
     padding: 1rem;
     min-height: 10rem;
 }
@@ -28,7 +27,6 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    position: relative;
     padding: 1rem;
     min-height: 10rem;
 }
@@ -58,6 +56,10 @@ p {
     margin: 0 auto;
     padding-top: 2rem;
     padding-bottom: 2rem;
+
+    a {
+        color: $link-dark;
+    }
 }
 
 .header-items {

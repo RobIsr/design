@@ -38,6 +38,10 @@
         margin: 1rem;
     }
 
+    .screenshot:hover {
+        transform: scale(1.5); 
+    }
+
     .left {
         float: left;
         width: 250px;
@@ -46,9 +50,15 @@
     }
 
     .right {
-        width: 100px;
-        height: 200px;
-        clear: left;
+        float: right;
+        width: 250px;
+        height: 150px;
+        margin-top: 0.5rem;
+    }
+
+    .block {
+        width: 80%;
+        margin: 1rem auto;
     }
 
     hr {

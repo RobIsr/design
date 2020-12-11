@@ -31,15 +31,15 @@
         <header class="site-header">
     {% endif %}
 
-    <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
-                <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
+    <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false">
+                <i class="fa fa-bars" id="toggler"></i>
                 <span class="sr-only">Toggle Menu</span>
     </a>
     <!-- Header content -->
     <div class="header-items">
         {% if pages["_meta"].meta.logo %}
-            <div class="logo" aria-hidden="true">
-                <a href="{{ "index"|link }}">
+            <div class="logo">
+                <a href="{{ "index"|link }}" aria-label="logo">
                     <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
                 </a>
             </div>
@@ -75,11 +75,11 @@
         <div class="gallery">
             {% for image in meta.images %}
                 <div>
-                <a href="{{ base_url }}/image/gallery/{{ image.url }}" target="_blank">
+                <a href="{{ base_url }}/image/gallery/{{ image.url }}" target="_blank" aria-label="airplane image">
                     <picture>
                         <source media="(min-width: 668px)" srcset="{{ base_url }}/image/gallery/{{ image.url }}?w=1000&crop-to-fit&aspect-ratio=1:1&q=80">
                         <source media="(min-width: 376px)" srcset="{{ base_url }}/image/gallery/{{ image.url }}?w=667&crop-to-fit&aspect-ratio=1:1&q=80">
-                        <img src="{{ base_url }}/image/gallery/{{ image.url }}?w=300&crop-to-fit&aspect-ratio=1:1" class="max-width" alt="plane">
+                        <img src="{{ base_url }}/image/gallery/{{ image.url }}?w=300&crop-to-fit&aspect-ratio=1:1" class="max-width" alt="plane image">
                     </picture>
                 </a>
                 </div>

@@ -16,7 +16,7 @@ Analyser
         <p>Analys av färg och typgrafi för 3 olika sidor...</p>
     </div>
     <div class="box-footer">
-        <a href="analysis/kmom04"><img src="assets/img/arrow.png"></button></a>
+        <a href="analysis/kmom04"><img src="assets/img/arrow.png" alt="Klick to view" aria-label="continue button"></button></a>
     </div>
 </div>
 
@@ -28,7 +28,7 @@ Analyser
         <p>Analys av webbsidors laddtider och användbarhet.</p>
     </div>
     <div class="box-footer">
-        <a href="analysis/kmom05"><img src="assets/img/arrow.png"></button></a>
+        <a href="analysis/kmom05"><img src="assets/img/arrow.png" alt="Klick to view" aria-label="continue button"></button></a>
     </div>
 </div>
 
@@ -40,6 +40,6 @@ Analyser
         <p>Kommer snart...</p>
     </div>
     <div class="box-footer">
-        <a href="analysis/kmom06"><img src="assets/img/arrow.png"></button></a>
+        <a href="analysis/kmom06"><img src="assets/img/arrow.png" alt="Klick to view" aria-label="continue button"></button></a>
     </div>
 </div>

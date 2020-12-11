@@ -31,17 +31,17 @@
         {% else %}
             <header class="site-header">
         {% endif %}
-    <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false" tabindex="1">
-                <i class="fa fa-bars" aria-hidden="true" id="toggler"></i>
+    <a class="nav-toggle" id="nav-toggle" title="Toggle Menu" role="button" aria-controls="nav" aria-expanded="false">
+                <i class="fa fa-bars" id="toggler"></i>
                 <span class="sr-only">Toggle Menu</span>
     </a>
 
     <!-- Header content -->
     <div class="header-items">
         {% if pages["_meta"].meta.logo %}
-            <div class="logo" aria-hidden="true">
-                <a href="{{ "index"|link }}">
-                    <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="" />
+            <div class="logo">
+                <a href="{{ "index"|link }}" aria-label="logo">
+                    <img src="{{ base_url }}/{{ pages["_meta"].meta.logo|url }}" alt="logo" />
                 </a>
             </div>
         {% endif %}
@@ -87,7 +87,7 @@
                 <ul>
                     {% for page in pages("analysis") if page.title != "" and not page.hidden %}
                         <li{% if page.id == current_page.id %} class="active" {% endif %}>
-                            <a href={{ page.title|lower }}>{{ page.title }}</a>
+                            <a href={{ page.title|lower }} aria-label="{{ page.title }}">{{ page.title }}</a>
                         </li>
                     {% endfor %}
                 </ul>
