@@ -60,7 +60,7 @@ Reports
         <h2>Kmom05</h2>
     </div>
     <div class="box-main">
-        <p>Kommer snart...</p>
+        <p>Webbsidors laddtider och användbarhet</p>
     </div>
     <div class="box-footer">
         <a href="report/kmom05"><img src="assets/img/arrow.png" alt="Click to view"></button></a>
@@ -72,7 +72,7 @@ Reports
         <h2>Kmom06</h2>
     </div>
     <div class="box-main">
-        <p>Kommer snart...</p>
+        <p>Designprinciper och tillggänglighet</p>
     </div>
     <div class="box-footer">
         <a href="report/kmom06"><img src="assets/img/arrow.png" alt="Click to view"></button></a>

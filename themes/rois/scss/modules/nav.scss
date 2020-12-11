@@ -1,7 +1,7 @@
 .nav {
     background-color: $footer-color;
-    height: 3rem;
     border-radius: 10px;
+    height: 6em;
 }
 
 .nav-toggle {
@@ -29,12 +29,33 @@
     transition: height 0.5s ease-in !important;
 }
 
-.nav ul li {
-    display: inline;
-    margin-left: 0;
-    text-align: center;
-    padding: 1em;
-    vertical-align: middle;
+.nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+
+    li {
+        display: inline;
+        margin-left: 0;
+        text-align: center;
+        padding: 1em;
+    }
+}
+
+.nav-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+        color: $light-base-color;
+    }
+}
+
+.navbar-active {
+    p {
+        color: $link-color;
+    }
 }
 
 @media (max-width: 767px) {

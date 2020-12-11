@@ -174,8 +174,7 @@ sidan men behöver kompletteras så att de även innehåller text för att vara 
 första sidan med presentationen av mig själv, känns lite obalanserad då jag använder ikoner på egen rad för varje
 stycke i texten. Alla dessa ligger placerade till vänster och endast textinnehållet balanserar inte ut detta.
 
-Jag har valt att ändra så att ikonerna ligger kvar med text under samt att jag tagit bort ikonerna som legat
-inbakade mellan alla stycken i presentations texten.
+Jag har valt att ändra så att ikonerna ligger kvar med text under samt att jag tagit bort ikonerna som legat inbakade mellan alla stycken i presentations texten.
 
 Övrigt
 ------

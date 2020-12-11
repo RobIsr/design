@@ -37,7 +37,7 @@ Analyser
         <h2>Design</h2>
     </div>
     <div class="box-main">
-        <p>Kommer snart...</p>
+        <p>Analys av webbsidors användning av designprinciper och design element</p>
     </div>
     <div class="box-footer">
         <a href="analysis/kmom06"><img src="assets/img/arrow.png" alt="Klick to view" aria-label="continue button"></button></a>
