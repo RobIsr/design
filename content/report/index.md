@@ -84,7 +84,7 @@ Reports
         <h2>Kmom10</h2>
     </div>
     <div class="box-main">
-        <p>Kommer snart...</p>
+        <p>Slutprojekt (Webbsida för breakdansaren Art-Ist)</p>
     </div>
     <div class="box-footer">
         <a href="report/kmom10"><img src="assets/img/arrow.png" alt="Click to view"></button></a>
